@@ -1,5 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "console_cursor": "transparent",
   "palette": {
         "os": "#ACB0BE",
         "pink": "#F5BDE6",

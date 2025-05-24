@@ -32,4 +32,5 @@ export EDITOR=/home/linuxbrew/.linuxbrew/bin/nvim
 
 export PATH="$PATH:/usr/local/bin"
 
-export TERM="xterm"
+# Enable vi mode
+set -o vi
