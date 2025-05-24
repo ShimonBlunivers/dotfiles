@@ -1,4 +1,6 @@
 tap "jandedobbeleer/oh-my-posh"
+# GNU dotfiles
+brew "gcc"
 # GNU compiler collection
 brew "gcc"
 # GitHub command-line tool
