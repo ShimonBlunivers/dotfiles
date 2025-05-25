@@ -24,11 +24,12 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-eval "$(oh-my-posh init bash --config ~/.poshthemes/catppuccin.omp.json)"
-
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+eval "$(oh-my-posh init bash --config .poshthemes/catppuccin_macchiato.omp.json)"
+
 export EDITOR=/home/linuxbrew/.linuxbrew/bin/nvim
+alias vim="nvim"
 
 export PATH="$PATH:/usr/local/bin"
 
