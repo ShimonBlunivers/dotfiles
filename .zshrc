@@ -6,17 +6,15 @@ SAVEHIST=10000        # how many commands saved to file
 # Share history between sessions instantly
 setopt SHARE_HISTORY
 setopt INC_APPEND_HISTORY
-
-# Ignore duplicate commands
 setopt HIST_IGNORE_ALL_DUPS
 
 # Brew shellenv for Linuxbrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # oh-my-posh for zsh
-eval "$(oh-my-posh init zsh --config .poshthemes/catppuccin_macchiato.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.poshthemes/catppuccin_macchiato.omp.json)"
 
-export EDITOR=/home/linuxbrew/.linuxbrew/bin/nvim
+export EDITOR="/home/linuxbrew/.linuxbrew/bin/nvim"
 alias vim="nvim"
 
 export PATH="$PATH:/usr/local/bin"
